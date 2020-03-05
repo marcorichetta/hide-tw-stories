@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Hide Twitter stories",
+	"description": "This extensions hides stories on Twitter",
+	"version": "0.0.1",
+	"developer": {
+    "name": "Marco Richetta",
+    "url": "https://marcorichetta.now.sh"
+  },
+	"content_scripts": [
+		{
+			"matches": ["*://*.twitter.com/*"],
+			"css": ["hide.css"]
+		}
+	],
+	"icons": {
+    "48": "icons/twt.png",
+    "96": "icons/twt96.png"
+	}
+}

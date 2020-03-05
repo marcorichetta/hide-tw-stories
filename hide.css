@@ -1,0 +1,4 @@
+/* Twitter class for stories container */
+#stories_pagelet_below_composer {
+    display: none !important;
+}
